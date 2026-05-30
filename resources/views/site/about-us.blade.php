@@ -38,7 +38,7 @@
                             </div>
                         </li>
                         <li>
-                            <h2><span>Call For Taxi</span><a href="tel:1234567890">1234-5678-90</a></h2>
+                            <h2><span>Call For Taxi</span><a href="tel:9517815169">95178-15169</a></h2>
                         </li>
                     </ul>
                 </div>
@@ -312,7 +312,7 @@
                 <p>We successfully cope with tasks of varying complexity,<br>guarantees and regularly master new technologies.</p>
                 <div class="cta-call">
                     <i class="las la-phone-volume"></i>
-                    <p><span>Call For Taxi</span><a href="tel:1234567890">1234-5678-90</a></p>
+                    <p><span>Call For Taxi</span><a href="tel:9517815169">95178-15169</a></p>
                 </div>
             </div>
         </div>

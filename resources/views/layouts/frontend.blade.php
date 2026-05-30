@@ -94,7 +94,7 @@
                             <i class="las la-phone-volume"></i>
                         </div>
                         <div class="header-info-text">
-                            <h3><span>Call us now</span><a href="tel:1234567890">1234-5678-90</a></h3>
+                            <h3><span>Call us now</span><a href="tel:1234567890">95178-15169</a></h3>
                         </div>
                     </li>
                     <li>
@@ -205,7 +205,7 @@
         <p>Everything your taxi business needs is already here! Deep Cabs, a theme
             made for taxi service companies.</p>
         <ul class="sidebox-list">
-            <li class="call"><span>Call for ride:</span>1234-5678-90</li>
+            <li class="call"><span>Call for ride:</span>95178-15169</li>
             <li>
                 <span>You can find us at:</span>Shop no 23 , jai singh complex model town <br> link road near children traffic park Ludhiana, punjab
             </li>
@@ -232,7 +232,7 @@
                     <div class="col-lg-4">
                         <div class="footer-call">
                             <i class="las la-phone-volume"></i>
-                            <p><span>Call For Taxi</span><a href="tel:1234567890">1234-5678-90</a></p>
+                            <p><span>Call For Taxi</span><a href="tel:9517815169">95178-15169</a></p>
                         </div>
                     </div>
                 </div>
