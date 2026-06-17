@@ -5,7 +5,7 @@
     <div id="popup-sidebox" class="popup-sidebox">
         <div class="sidebox-content">
             <div class="site-logo">
-                <a href="{{route('home')}}"><img src="assets/img/logo-light.png" alt="logo" /></a>
+                <a href="{{route('home')}}"><img src="assets/img/logo-dark.png" alt="logo" /></a>
             </div>
             <p>Everything your taxi business needs is already here! Deep Cabs, a theme
                 made for taxi service companies.</p>
@@ -14,13 +14,12 @@
                 <li>
                     <span>You can find us at:</span>Shop no 23 , jai singh complex model town link road near children traffic park Ludhiana, punjab
                 </li>
-                <li><span>Email now:</span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6920070f06471b000d0c022904080005470a0604">[email&#160;protected]</a></li>
+                <li><span>Email now:</span><a href="#" class="__cf_demail__">deepcabs007@gmail.com</a></li>
             </ul>
         </div>
     </div>
     <!--/.popup-sidebox-->
     <div id="sidebox-overlay"></div>
-
     <section class="page-header">
         <div class="page-header-shape"></div>
         <div class="container">

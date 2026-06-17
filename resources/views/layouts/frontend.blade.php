@@ -102,7 +102,7 @@
                             <i class="las la-envelope-open"></i>
                         </div>
                         <div class="header-info-text">
-                            <h3><span>Email now</span><a href="javascript:void(0);" class="__cf_email__">test@ludhianataxiservices.in</a>
+                            <h3><span>Email now</span><a href="javascript:void(0);" class="__cf_email__">deepcabs007@gmail.com</a>
                             </h3>
                         </div>
                     </li>
@@ -200,7 +200,7 @@
 <div id="popup-sidebox" class="popup-sidebox">
     <div class="sidebox-content">
         <div class="site-logo">
-            <a href="{{route('home')}}"><img src="assets/img/logo-light.png" alt="logo" /></a>
+            <a href="{{route('home')}}"><img src="assets/img/logo-dark.png" alt="logo" /></a>
         </div>
         <p>Everything your taxi business needs is already here! Deep Cabs, a theme
             made for taxi service companies.</p>
@@ -209,7 +209,7 @@
             <li>
                 <span>You can find us at:</span>Shop no 23 , jai singh complex model town <br> link road near children traffic park Ludhiana, punjab
             </li>
-            <li><span>Email now:</span><a href="javascript:void(0);" class="text-white __cf_email__">test@ludhianataxiservices.in</a></li>
+            <li><span>Email now:</span><a href="javascript:void(0);" class="text-white __cf_email__">deepcabs007@gmail.com</a></li>
         </ul>
     </div>
 </div>
@@ -223,7 +223,7 @@
                 <div class="row align-items-end">
                     <div class="col-lg-8">
                         <div class="brand">
-                            <a class="footer-logo" href="{{route('home')}}"><img src="assets/img/logo-light.png"
+                            <a class="footer-logo" href="{{route('home')}}"><img src="assets/img/logo-dark.png"
                                                                           alt="logo"></a>
                             <p>We successfully cope with tasks of varying complexity, provide long-term guarantees
                                 and regularly master new technologies with Deep Cabs.</p>
@@ -274,7 +274,7 @@
                         </div>
                         <ul class="footer-contact">
                             <li><span>Location:</span>Shop no 23, jai singh complex model town link road near children traffic park - Ludhiana, punjab</li>
-                            <li><span>Join Us:</span><a href="javascript:void(0);" class="text-white __cf_email__">test@ludhianataxiservices.in</a>
+                            <li><span>Join Us:</span><a href="javascript:void(0);" class="text-white __cf_email__"> deepcabs007@gmail.com</a>
                             </li>
                         </ul>
                     </div>

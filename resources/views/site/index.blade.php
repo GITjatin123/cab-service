@@ -300,18 +300,18 @@
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
                                     <img src="assets/img/pricing-car.png" alt="car">
-                                    <div class="price">$2.50/km</div>
+{{--                                    <div class="price">$2.50/km</div>--}}
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="javascript:void(0);">BMW X5 2008</a></h3>
-                                <span class="location">Chicago</span>
+                                <h3><a href="javascript:void(0);">Hycross</a></h3>
+{{--                                <span class="location">Chicago</span>--}}
                             </div>
                             <ul class="pricing-list">
-                                <li>Initial Charge: <span>$2.50</span></li>
+                                {{--<li>Initial Charge: <span>$2.50</span></li>
                                 <li>Per Mile/KM: <span>$4.20</span></li>
                                 <li>Per Stopped Trafic: <span>$1.50</span></li>
-                                <li>Passengers: <span>4 Person</span></li>
+                                <li>Passengers: <span>4 Person</span></li>--}}
                                 <li><a href="{{route('book-taxi')}}" class="default-btn">Book Taxi Now</a></li>
                             </ul>
                         </div>
@@ -320,19 +320,19 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="assets/img/pricing-car.png" alt="car">
-                                    <div class="price">$3.50/km</div>
+                                    <img src="assets/img/pricing-car2.png" alt="car">
+{{--                                    <div class="price">$3.50/km</div>--}}
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="javascript:void(0);">Mercedes‑Benz</a></h3>
-                                <span class="location">Florida</span>
+                                <h3><a href="javascript:void(0);">Ertiga </a></h3>
+{{--                                <span class="location">Florida</span>--}}
                             </div>
                             <ul class="pricing-list">
-                                <li>Initial Charge: <span>$2.50</span></li>
+                               {{-- <li>Initial Charge: <span>$2.50</span></li>
                                 <li>Per Mile/KM: <span>$4.20</span></li>
                                 <li>Per Stopped Trafic: <span>$1.50</span></li>
-                                <li>Passengers: <span>4 Person</span></li>
+                                <li>Passengers: <span>4 Person</span></li>--}}
                                 <li><a href="{{route('book-taxi')}}" class="default-btn">Book Taxi Now</a></li>
                             </ul>
                         </div>
@@ -341,19 +341,19 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="assets/img/pricing-car.png" alt="car">
-                                    <div class="price">$4.50/km</div>
+                                    <img src="assets/img/pricing-car3.png" alt="car">
+{{--                                    <div class="price">$4.50/km</div>--}}
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="javascript:void(0);">Hyundai 2022</a></h3>
-                                <span class="location">New York</span>
+                                <h3><a href="javascript:void(0);">urbania</a></h3>
+{{--                                <span class="location">New York</span>--}}
                             </div>
                             <ul class="pricing-list">
-                                <li>Initial Charge: <span>$2.50</span></li>
-                                <li>Per Mile/KM: <span>$4.20</span></li>
-                                <li>Per Stopped Trafic: <span>$1.50</span></li>
-                                <li>Passengers: <span>4 Person</span></li>
+{{--                                <li>Initial Charge: <span>$2.50</span></li>--}}
+{{--                                <li>Per Mile/KM: <span>$4.20</span></li>--}}
+{{--                                <li>Per Stopped Trafic: <span>$1.50</span></li>--}}
+{{--                                <li>Passengers: <span>4 Person</span></li>--}}
                                 <li><a href="{{route('book-taxi')}}" class="default-btn">Book Taxi Now</a></li>
                             </ul>
                         </div>

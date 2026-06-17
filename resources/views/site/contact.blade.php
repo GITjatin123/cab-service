@@ -15,7 +15,7 @@
                     </div>
                     <ul class="contact-details">
                         <li><i class="fas fa-map-marker-alt"></i>Shop no 23, jai singh complex model town <br> link road near children traffic park - Ludhiana, punjab</li>
-                        <li><i class="fas fa-envelope"></i><a href="javascript:void(0);" class="__cf_email__">test@ludhianataxiservices.in</a></li>
+                        <li><i class="fas fa-envelope"></i><a href="javascript:void(0);" class="__cf_email__"> deepcabs007@gmail.com</a></li>
                         <li><i class="fas fa-phone"></i>95178-15169</li>
                     </ul>
                 </div>
