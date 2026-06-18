@@ -9,6 +9,8 @@ Route::get('/', function () {
 
 Route::get('/',[\App\Http\Controllers\SiteController::class,'HomePage'])->name('home');
 Route::get('/contact',[\App\Http\Controllers\SiteController::class,'Contact'])->name('contact');
+Route::post('/contact',[\App\Http\Controllers\SiteController::class,'ContactStore'])->name('contact.store');
+Route::post('/newsletter',[\App\Http\Controllers\SiteController::class,'NewsletterStore'])->name('newsletter.store');
 Route::get('/about-us',[\App\Http\Controllers\SiteController::class,'About'])->name('about');
 Route::get('/book-taxi',[\App\Http\Controllers\SiteController::class,'BookTaxi'])->name('book-taxi');
 Route::get('/login',[\App\Http\Controllers\SiteController::class,'Login'])->name('login');

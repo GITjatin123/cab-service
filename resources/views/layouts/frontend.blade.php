@@ -284,7 +284,8 @@
                         <div class="widget-title">
                             <h3>Newsletter Signup</h3>
                         </div>
-                        <form action="#" class="subscribe-form">
+                        <form action="{{ route('newsletter.store') }}" method="post" class="subscribe-form">
+                            @csrf
                             <input class="form-control" type="email" name="email" placeholder="Your Email"
                                    required="">
                             <input type="hidden" name="action" value="mailchimpsubscribe">

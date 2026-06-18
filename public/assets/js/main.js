@@ -405,12 +405,39 @@
             return false;
         });
 
-        // MailChimp
-        if ($('.subscribe-form').length>0) {
-            $('.subscribe-form').ajaxChimp({
-                language: 'en',
-                callback: mailchimpCallback,
-                url: "https://gmail.us4.list-manage.com/subscribe/post?u=540c52965f5180ae846e5e5a8&amp;id=4dbe9a9245&amp;f_id=0027a5ebf0"
+        // Newsletter Form handler
+        if ($('.subscribe-form').length > 0) {
+            $('.subscribe-form').on('submit', function (e) {
+                e.preventDefault();
+                var $form = $(this);
+                var formData = $form.serialize();
+                var $result = $('#subscribe-result');
+                var $success = $('.subscription-success');
+                var $error = $('.subscription-error');
+
+                $.ajax({
+                    type: 'POST',
+                    url: $form.attr('action'),
+                    data: formData
+                })
+                .done(function (response) {
+                    $result.addClass('subs-result');
+                    $success.text(response).fadeIn();
+                    $error.fadeOut();
+                    $form.find('input[type="email"]').val('');
+                    setTimeout(function () {
+                        $result.removeClass('subs-result');
+                        $success.fadeOut();
+                    }, 5000);
+                })
+                .fail(function (data) {
+                    $result.addClass('subs-result');
+                    var errorMsg = 'Oops! An error occured.';
+                    if (data.responseText) {
+                        errorMsg = data.responseText;
+                    }
+                    $error.text(errorMsg).fadeIn();
+                });
             });
         }
         

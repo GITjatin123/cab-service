@@ -56,4 +56,40 @@ $(function() {
 
 	});
 
+    // Contact Form handler
+    var contactForm = $('#ajax_contact');
+    $(contactForm).submit(function(event) {
+        event.preventDefault();
+        var formData = $(contactForm).serialize();
+        var contactFormMessages = $('#form-messages');
+
+        $.ajax({
+            type: 'POST',
+            url: $(contactForm).attr('action'),
+            data: formData
+        })
+        .done(function(response) {
+            $(contactFormMessages).removeClass('alert-danger');
+            $(contactFormMessages).addClass('alert-success');
+            $(contactFormMessages).text(response);
+
+            // Clear the form.
+            $('#firstname').val('');
+            $('#lastname').val('');
+            $('#email').val('');
+            $('#phone').val('');
+            $('#message').val('');
+        })
+        .fail(function(data) {
+            $(contactFormMessages).removeClass('alert-success');
+            $(contactFormMessages).addClass('alert-danger');
+
+            if (data.responseText !== '') {
+                $(contactFormMessages).text(data.responseText);
+            } else {
+                $(contactFormMessages).text('Oops! An error occured and your message could not be sent.');
+            }
+        });
+    });
+
 });

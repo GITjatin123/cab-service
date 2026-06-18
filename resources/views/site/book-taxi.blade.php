@@ -47,7 +47,7 @@
                                 <i class="las la-envelope-open"></i>
                                 <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
                             </div>
-                            <div class="form-field">
+                            {{--<div class="form-field">
                                 <i class="las la-tags"></i>
                                 <select name="package-type" id="package-type" class="niceSelect">
                                     <option value="standard">Standard</option>
@@ -66,7 +66,7 @@
                                     <option value="4">4 Person</option>
                                     <option value="5">5 Person</option>
                                 </select>
-                            </div>
+                            </div>--}}
                             <div class="form-field">
                                 <i class="las la-map-marker"></i>
                                 <input type="text" id="start-dest" name="start-dest" class="form-control" placeholder="Start Destination" required>

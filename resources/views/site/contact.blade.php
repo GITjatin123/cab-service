@@ -22,7 +22,8 @@
             </div>
             <div class="col-md-6">
                 <div class="contact-form">
-                    <form action="#" method="post" id="ajax_contact" class="form-horizontal">
+                    <form action="{{ route('contact.store') }}" method="post" id="ajax_contact" class="form-horizontal">
+                        @csrf
                         <div class="contact-title">
                             <h2>Contact With Us! <span></span></h2>
                         </div>
