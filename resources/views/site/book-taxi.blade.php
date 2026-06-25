@@ -10,7 +10,7 @@
             <p>Everything your taxi business needs is already here! Deep Cabs, a theme
                 made for taxi service companies.</p>
             <ul class="sidebox-list">
-                <li class="call"><span>Call for ride:</span>95178-15169</li>
+                <li class="call"><span>Call for ride:</span>95178-15166</li>
                 <li>
                     <span>You can find us at:</span>Shop no 23 , jai singh complex model town link road near children traffic park Ludhiana, punjab
                 </li>
