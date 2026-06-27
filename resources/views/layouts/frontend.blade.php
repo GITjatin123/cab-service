@@ -6,7 +6,7 @@
     <meta name="description" content="Deep Cabs">
     <meta name="author" content="DynamicLayers">
     <base href="public/">
-    <title>Deep Cabs</title>
+    <title>Ludhiana Taxi Services</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
 
