@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Ludhiana Taxi Services">
+    <meta property="og:site_name" content="Ludhiana Taxi Services">
     <meta name="author" content="DynamicLayers">
     <base href="public/">
     <title>Ludhiana Taxi Services</title>
