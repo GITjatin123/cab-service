@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Deep Cabs'),
+    'name' => env('APP_NAME', 'ludhiana taxi services'),
 
     /*
     |--------------------------------------------------------------------------
